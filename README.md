@@ -1,7 +1,7 @@
 # Uso-de-AsyncTask-Android
 
   ```java
-    private class AsyncLoginUser extends AsyncTask<String, String, String> {
+    private class AsyncLoginUser extends AsyncTask<String1, String, String> {
 
         @Override
         protected void onPreExecute() {
@@ -9,7 +9,7 @@
         }
 
         @Override
-        protected String doInBackground(String... params) {
+        protected String doInBackground(String1... params) {
 
             // Logica del negocio
 
